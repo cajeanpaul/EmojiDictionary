@@ -10,6 +10,8 @@ import UIKit
 
 class EmojiDefinitionViewController: UIViewController {
 
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var birthLabel: UILabel!
     @IBOutlet weak var emojiDefinitionLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
     var emoji = ""
@@ -22,6 +24,8 @@ class EmojiDefinitionViewController: UIViewController {
         
         if emoji == "😊" {
             emojiDefinitionLabel.text = "When you are happy but showing humility"
+            birthLabel.text = "Birth Year: 2005"
+            categoryLabel.text = "Category: Faces"
         }
       
         if emoji == "😘" {
@@ -41,6 +45,8 @@ class EmojiDefinitionViewController: UIViewController {
         }
         if emoji == "✌🏾" {
             emojiDefinitionLabel.text = "Deuces. Peace Out. I'm Done Arguing"
+            birthLabel.text = "Birth Year: 2014"
+            categoryLabel.text = "Category: Hands"
         }
         
         if emoji == "🙏🏾" {
@@ -49,6 +55,8 @@ class EmojiDefinitionViewController: UIViewController {
         
         if emoji == "👶🏾" {
             emojiDefinitionLabel.text = "Baby. Rajesh my future😊"
+            birthLabel.text = "Birth Year: 2018"
+            categoryLabel.text = "Category: People"
         }
         
         if emoji == "👰🏾" {
