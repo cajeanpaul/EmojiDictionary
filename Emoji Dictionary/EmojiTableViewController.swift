@@ -43,7 +43,5 @@ class EmojiTableViewController: UITableViewController {
         emojiDefVC.emoji = sender as! String
     }
 
-    func createEmojis() -> [Emoji] {
-        
-    }
+     
 }
